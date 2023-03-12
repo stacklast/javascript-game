@@ -1,10 +1,22 @@
-let life, attack, poision;
-let name, welcomeTxt;
+let fps = 10;
+let xScene = 0;
 
-nameTxt = "Edwin";
-welcomeTxt = "Welcome " + name;
-life = 100;
-attack = 10;
-poision = 20;
+const attack = () => {
+    console.log("Attack");
+};
 
-life = life - attack;
+
+
+
+const moveScene = () => {
+    xScene ++;
+    console.log("Move", xScene);
+};
+
+
+
+const main = () => {
+    moveScene();
+};
+
+setInterval(main, 1000 / 4);
