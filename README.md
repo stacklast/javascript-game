@@ -1,2 +1,3 @@
 # javascript-game
-Javascript Game
+
+First VideoGame Javascript
